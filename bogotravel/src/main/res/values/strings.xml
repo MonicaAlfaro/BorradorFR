@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Bogotravel</string>
+    <string name="imagen">Biblioteca</string>
+    <string name="titulo">BIBLIOTECA VIRGILIO BARCO</string>
+    <string name="informacion">La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura. Este magnífico edificio creado por el arquitecto Rogelio Salmona es un espacio cultural abierto a toda clase de público y lleva nombre de uno de los expresidentes de la nación. Alrededor de la biblioteca se encuentran varios sitios de interés que permite a los visitantes desarrollar otras actividades.</string>
+    <string name="temperatura">Temperatura: 18°</string>
+    <string name="boton">PLANES</string>
+
+    <string name="foto">foto</string>
+    <string name="nombre_poi">nombre_poi</string>
+    <string name="descripcorta">Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad.</string>
+    <string name="valoracion">*****</string>
+    <string name="USAQUEN" />
+
+    <!-- Sync Preferences -->
+    <string name="notifications">Notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Preferencias</string>
+</resources>
