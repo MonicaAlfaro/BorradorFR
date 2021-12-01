@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/drawable/ic_notifications.xml" value="0.2203125" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/activity_bottom.xml" value="0.15454545454545454" />
         <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/card_view_poi_item.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/fragment_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/content_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/fragment_detail.xml" value="0.1511111111111111" />
         <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/fragment_list.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/xml/root_preferences.xml" value="0.1" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/menu/bottom_nav_menu.xml" value="0.75" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/menu/overflow_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/monic/AndroidStudioProjects/BorradorFR/bogotravel/src/main/res/xml/root_preferences.xml" value="0.25" />
       </map>
     </option>
   </component>
