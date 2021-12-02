@@ -34,7 +34,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: android.view.View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (activity as MainActivity?)?.hideIcon()
+       // (activity as MainActivity?)?.hideIcon() No se usa en Drawer Activity, por eso se comenta
         listPoi = loadMockPoiFromJson()
         poiAdapter= PoiAdapter(listPoi, onItemClicked = { onPoiClicked (it) })
         listBinding.poiRecyclerView.apply {

@@ -18,7 +18,7 @@ class DetailFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        (activity as MainActivity?)?.showIcon()
+       // (activity as MainActivity?)?.showIcon()  No se usa en Drawer Activity, por eso se comenta
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
