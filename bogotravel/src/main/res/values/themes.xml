@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Texto_titulo">
         <!-- Primary brand color. -->
         <item name="android:textSize">20sp</item>
@@ -26,4 +27,13 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">normal</item>
     </style>
+
+    <style name="Theme.BorradorFR.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BorradorFR.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BorradorFR.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

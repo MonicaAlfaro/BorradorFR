@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bogotravel.R
 import com.example.bogotravel.databinding.FragmentListBinding
+import com.example.bogotravel.main.MainActivity
 import com.example.bogotravel.model.Poi
 import com.example.bogotravel.model.PoiItem
 import com.google.gson.Gson
@@ -18,6 +19,8 @@ class ListFragment : Fragment() {
     private lateinit var listBinding: FragmentListBinding
     private lateinit var poiAdapter: PoiAdapter
     private lateinit var listPoi: ArrayList<PoiItem>
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,6 +34,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: android.view.View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listPoi = loadMockPoiFromJson()
         poiAdapter= PoiAdapter(listPoi, onItemClicked = { onPoiClicked (it) })
         listBinding.poiRecyclerView.apply {
