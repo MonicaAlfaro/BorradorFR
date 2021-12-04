@@ -5,21 +5,20 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.bogotravel.R
+
 import com.example.bogotravel.databinding.FragmentListBinding
 import com.example.bogotravel.main.MainActivity
-import com.example.bogotravel.model.Poi
 import com.example.bogotravel.model.PoiItem
-import com.google.gson.Gson
 
 
 class ListFragment : Fragment() {
     private lateinit var listBinding: FragmentListBinding
+    private lateinit var listViewModel : ListViewModel
     private lateinit var poiAdapter: PoiAdapter
-    private lateinit var listPoi: ArrayList<PoiItem>
-
+    private var listPoi: ArrayList<PoiItem> = arrayListOf()
 
 
     override fun onCreateView(
@@ -28,20 +27,41 @@ class ListFragment : Fragment() {
     ): View? {
 
         listBinding= FragmentListBinding.inflate(inflater, container, false)
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
 
         return listBinding.root
     }
 
     override fun onViewCreated(view: android.view.View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-       // (activity as MainActivity?)?.hideIcon() No se usa en Drawer Activity, por eso se comenta
-        listPoi = loadMockPoiFromJson()
+        (activity as MainActivity?)?.hideIcon()
+         listViewModel.loadMockPoiFromJson(context?.assets?.open("InfoPoi.json"))
+
+        listViewModel.onPoiLoaded.observe(viewLifecycleOwner,{ result->
+            onPoiLoadedSubscribe(result)
+        })
+
         poiAdapter= PoiAdapter(listPoi, onItemClicked = { onPoiClicked (it) })
+
         listBinding.poiRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = poiAdapter
             setHasFixedSize(false)
         }
+
+    }
+
+    private fun onPoiLoadedSubscribe(result: ArrayList<PoiItem>?) {
+        result?.let { listPoi ->
+            poiAdapter.appendItems(listPoi)
+
+
+           /* TODO: revisar feedback
+            this.listPoi = listPoi
+            poiAdapter.notifyDataSetChanged()*/
+
+        }
+
     }
 
     private fun onPoiClicked(poi: PoiItem) {
@@ -49,11 +69,5 @@ class ListFragment : Fragment() {
 
     }
 
-    private fun loadMockPoiFromJson(): ArrayList<PoiItem> {
-        var poiString: String = context?.assets?.open("InfoPoi.json")?.bufferedReader().use { it!!.readText() }//TODO reparar//
-        val gson = Gson()
-        val poiList = gson.fromJson(poiString, Poi::class.java)
-        return poiList
-    }
 
 }
