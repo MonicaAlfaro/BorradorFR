@@ -18,6 +18,10 @@ data class PoiItem(
     @SerializedName("temperatura")
     val temperatura: String,
     @SerializedName("urlPictureBig")
-    val urlPictureBig: String
+    val urlPictureBig: String,
+    @SerializedName("longitud")
+    val loingitud: Double,
+    @SerializedName("latitud")
+    val latitud: Double
 
 ) : Serializable

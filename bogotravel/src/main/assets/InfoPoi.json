@@ -1,57 +1,69 @@
-[
-    {
+{
+    "poi": [{
         "name": "Usaquén",
-        "descripcorta" :"Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad.",
-        "descripcion" : "Fue escenario de amplias haciendas, hoy convertidas en urbanizaciones y centros comerciales. Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad. Modernos bistrós, acogedoras cafeterías, coctelerías y cervecerías se agrupan allí. Los domingos, podrás visitar el mercado de pulgas de Usaquén, disfruta de música al aire libre, espectáculos de marionetas, puestos de comida gourmet y artículos como joyas, artesanías y varias muestras de café local.",
-        "valoracion" : "***",
+        "descripcorta": "Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad.",
+        "descripcion": "Fue escenario de amplias haciendas, hoy convertidas en urbanizaciones y centros comerciales. Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad. Modernos bistrós, acogedoras cafeterías, coctelerías y cervecerías se agrupan allí. Los domingos, podrás visitar el mercado de pulgas de Usaquén, disfruta de música al aire libre, espectáculos de marionetas, puestos de comida gourmet y artículos como joyas, artesanías y varias muestras de café local.",
+        "valoracion": "***",
         "temperatura": "Temperatura:17ºC",
-        "urlPicture" :"https://www.alphalyracapital.com/recycler/usaquenrec.jpg",
-        "urlPictureBig": "https://www.alphalyracapital.com/poimages/usaquen.jpg"
+        "urlPicture": "https://www.alphalyracapital.com/recycler/usaquenrec.jpg",
+        "urlPictureBig": "https://www.alphalyracapital.com/poimages/usaquen.jpg",
+        "longitud": -74.0273,
+        "latitud": 4.73349
     },
-    {
-        "name" : "Parque Simón Bolivar",
-        "descripcorta" : "Se le considera el “pulmón de la ciudad”, por su estratégica ubicación en el corazón de Bogotá.",
-        "descripcion" : "El Parque Metropolitano Simón Bolívar es el parque urbano más grande e importante de la ciudad de Bogotá, fue construido en terrenos que formaban parte de la Hacienda El Salitre que pertenecía a José Joaquín Vargas quien tras su muerte en 1936 la donó como herencia a varias obras de beneficencia. Se le considera el “pulmón de la ciudad”, por su estratégica ubicación en el corazón de Bogotá, por su amplia vegetación y gran dimensión de sus zonas verdes.",
-        "valoracion" : "* * *",
-        "temperatura" : "Temperatura:19ºC",
-        "urlPicture" : "https://www.alphalyracapital.com/recycler/simonbolr.png",
-        "urlPictureBig" : "https://www.alphalyracapital.com/poimages/simonbol.jpg"
-    },
-    {
-        "name" : "Monserrate",
-        "descripcorta" : "Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.",
-        "descripcion" : "El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Si llegas en avión a Bogotá , vas a ver los cerros al oriente encumbrados por un templo que se destaca por su blancura. Ese es Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.  Allí llegan a diario cientos de personas deseosas de conocer uno de los lugares de peregrinación de Bogotá, a tener una de las mejores panorámicas de la ciudad.",
-        "valoracion" : "* * * * *",
-        "temperatura" : "Temperatura:14ºC",
-        "urlPicture" : "https://www.alphalyracapital.com/recycler/monserrater.png",
-        "urlPictureBig" : "https://www.alphalyracapital.com/poimages/monserrateok.jpg"
-    },
-    {
-        "name" : "Planetario",
-        "descripcorta" : "Un lugar mágico que hace del conocimiento una realidad palpable a los sentidos y la imaginación.",
-        "descripcion" : "El planetario de Bogotá está ubicado en la calle 26B #5-93, Bogotá, Cundinamarca. Se inauguró el lunes 22 de diciembre de 1969 con la presencia del presidente de la República, Carlos Lleras Restrepo, el alcalde mayor de Bogotá, Emilio Urrea Delgado y personalidades de los sectores de la cultura y la ciencia así como representantes diplomáticos. Sin embargo, la idea de construir en Bogotá un gran centro cultural con un planetario fue del alcalde de Bogotá Virgilio Barco Vargas en 1966.",
-        "valoracion" : "* * * * *",
-        "temperatura" : "Temperatura:18ºC",
-        "urlPicture" : "https://www.alphalyracapital.com/recycler/planetarior.png",
-        "urlPictureBig" : "https://www.alphalyracapital.com/poimages/planetariook.jpg"
-    },
-
-    {
-        "name" : "Biblioteca Virgilio Barco",
-        "descripcorta" : "La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura.",
-        "descripcion" : "La Biblioteca Pública Virgilio Barco está ubicada en la localidad de Teusaquillo, rodeada de parques y complejos deportivos y recreativos, atiende a los habitantes de las localidades de Teusaquillo, Chapinero, Engativá, Barrios Unidos, Los Mártires y Puente Aranda. La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura. Este magnífico edificio creado por el arquitecto Rogelio Salmona es un espacio cultural abierto a toda clase de público.",
-        "valoracion" : "* * * *",
-        "temperatura" : "Temperatura:16ºC",
-        "urlPicture" :"https://www.alphalyracapital.com/recycler/bibliotecar.png",
-        "urlPictureBig" : "https://www.alphalyracapital.com/poimages/bibliotecaok.jpg"
-    },
-    {
-        "name" : "Jardín Botánico",
-        "descripcorta" : "20 hectáreas enriquecidas con colecciones de plantas vivas científicamente organizadas.",
-        "descripcion" : "El Jardín Botánico José Celestino Mutis de Bogotá es el único del país especializado en la colección y la conservación de especies andinas y de páramo. Sus 20 hectáreas están enriquecidas con colecciones de plantas vivas científicamente organizadas con especies nativas y exóticas. Funciona como centro de investigación sobre ecosistemas en las zonas urbanas y rurales.",
-        "valoracion" : "* * * * *",
-        "temperatura" : "Temperatura:19ºC",
-        "urlPicture" : "https://www.alphalyracapital.com/recycler/jardinbor.png",
-        "urlPictureBig" : "https://www.alphalyracapital.com/poimages/jardinbook.jpg"
-    }
-]
+        {
+            "name": "Parque Simón Bolivar",
+            "descripcorta": "Se le considera el “pulmón de la ciudad”, por su estratégica ubicación en el corazón de Bogotá.",
+            "descripcion": "El Parque Metropolitano Simón Bolívar es el parque urbano más grande e importante de la ciudad de Bogotá, fue construido en terrenos que formaban parte de la Hacienda El Salitre que pertenecía a José Joaquín Vargas quien tras su muerte en 1936 la donó como herencia a varias obras de beneficencia. Se le considera el “pulmón de la ciudad”, por su estratégica ubicación en el corazón de Bogotá, por su amplia vegetación y gran dimensión de sus zonas verdes.",
+            "valoracion": "* * *",
+            "temperatura": "Temperatura:19ºC",
+            "urlPicture": "https://www.alphalyracapital.com/recycler/simonbolr.png",
+            "urlPictureBig": "https://www.alphalyracapital.com/poimages/simonbol.jpg",
+            "longitud": -74.0989595,
+            "latitud": 4.6581246
+        },
+        {
+            "name": "Monserrate",
+            "descripcorta": "Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.",
+            "descripcion": "El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Si llegas en avión a Bogotá , vas a ver los cerros al oriente encumbrados por un templo que se destaca por su blancura. Ese es Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.  Allí llegan a diario cientos de personas deseosas de conocer uno de los lugares de peregrinación de Bogotá, a tener una de las mejores panorámicas de la ciudad.",
+            "valoracion": "* * * * *",
+            "temperatura": "Temperatura:14ºC",
+            "urlPicture": "https://www.alphalyracapital.com/recycler/monserrater.png",
+            "urlPictureBig": "https://www.alphalyracapital.com/poimages/monserrateok.jpg",
+            "longitud": -74.0556623,
+            "latitud": 4.6056728
+        },
+        {
+            "name": "Planetario",
+            "descripcorta": "Un lugar mágico que hace del conocimiento una realidad palpable a los sentidos y la imaginación.",
+            "descripcion": "El planetario de Bogotá está ubicado en la calle 26B #5-93, Bogotá, Cundinamarca. Se inauguró el lunes 22 de diciembre de 1969 con la presencia del presidente de la República, Carlos Lleras Restrepo, el alcalde mayor de Bogotá, Emilio Urrea Delgado y personalidades de los sectores de la cultura y la ciencia así como representantes diplomáticos. Sin embargo, la idea de construir en Bogotá un gran centro cultural con un planetario fue del alcalde de Bogotá Virgilio Barco Vargas en 1966.",
+            "valoracion": "* * * * *",
+            "temperatura": "Temperatura:18ºC",
+            "urlPicture": "https://www.alphalyracapital.com/recycler/planetarior.png",
+            "urlPictureBig": "https://www.alphalyracapital.com/poimages/planetariook.jpg",
+            "longitud": -74.0696075,
+            "latitud": 4.6121934
+        },
+        {
+            "name": "Biblioteca Virgilio Barco",
+            "descripcorta": "La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura.",
+            "descripcion": "La Biblioteca Pública Virgilio Barco está ubicada en la localidad de Teusaquillo, rodeada de parques y complejos deportivos y recreativos, atiende a los habitantes de las localidades de Teusaquillo, Chapinero, Engativá, Barrios Unidos, Los Mártires y Puente Aranda. La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura. Este magnífico edificio creado por el arquitecto Rogelio Salmona es un espacio cultural abierto a toda clase de público.",
+            "valoracion": "* * * *",
+            "temperatura": "Temperatura:16ºC",
+            "urlPicture": "https://www.alphalyracapital.com/recycler/bibliotecar.png",
+            "urlPictureBig": "https://www.alphalyracapital.com/poimages/bibliotecaok.jpg",
+            "longitud": -74.0890644,
+            "latitud": 4.6571257
+        },
+        {
+            "name": "Jardín Botánico",
+            "descripcorta": "20 hectáreas enriquecidas con colecciones de plantas vivas científicamente organizadas.",
+            "descripcion": "El Jardín Botánico José Celestino Mutis de Bogotá es el único del país especializado en la colección y la conservación de especies andinas y de páramo. Sus 20 hectáreas están enriquecidas con colecciones de plantas vivas científicamente organizadas con especies nativas y exóticas. Funciona como centro de investigación sobre ecosistemas en las zonas urbanas y rurales.",
+            "valoracion": "* * * * *",
+            "temperatura": "Temperatura:19ºC",
+            "urlPicture": "https://www.alphalyracapital.com/recycler/jardinbor.png",
+            "urlPictureBig": "https://www.alphalyracapital.com/poimages/jardinbook.jpg",
+            "longitud": -74.1022828,
+            "latitud": 4.6680861
+        }
+    ]
+}
