@@ -8,8 +8,12 @@ import android.view.MenuItem
 import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import androidx.navigation.findNavController
 import com.example.bogotravel.R
 import com.example.bogotravel.ui.preference.SettingsFragment
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +41,11 @@ class MainActivity : AppCompatActivity() {
             }
             android.R.id.home ->{
                 onBackPressed()
+                true
+            }
+            R.id.menu_sign_out -> {
+                var auth : FirebaseAuth = Firebase.auth
+                auth.signOut()
                 true
             }
 

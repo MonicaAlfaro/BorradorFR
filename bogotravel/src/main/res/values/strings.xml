@@ -37,5 +37,15 @@
     <string name="tab_text_2">Tab 2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash">Splash</string>
+    <string name="imagen_splash" />
+    <string name="login">Iniciar sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="repeat_password">Repita la contrseña</string>
+    <string name="register">Crear cuenta</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="dont_have_account"><u> No tienes cuenta Registrate</u> </string>
+    <string name="sign_out">Cerrar Sesión</string>
 
 </resources>
