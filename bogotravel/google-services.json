@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602823937239",
+    "project_id": "my-project-334120",
+    "storage_bucket": "my-project-334120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602823937239:android:f860f3a57388d032e8b492",
+        "android_client_info": {
+          "package_name": "com.example.bogotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602823937239-rl9casal7c5r39d7vobumrt9meau891p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bogotravel",
+            "certificate_hash": "5ef2826d1293f9a3efd02f0f35005fd865e79ebd"
+          }
+        },
+        {
+          "client_id": "602823937239-06gb8j2l6a4343s2p4f7b9eic90e1rlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnpICFVSWkIWRd_i81ozMktKFij0SuYVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602823937239-06gb8j2l6a4343s2p4f7b9eic90e1rlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
